@@ -18,3 +18,6 @@ This is a simple command-line interactive tool to search the BEA database for ec
 
 ## Instructions:
 Open terminal and run the program with API-Key and output destination (absolute path, including ".csv"). This will give you a list of series that are available through the BEA api retrieval service. Pick the series that you want. This will then give you a list of options. If you know the option that you want, enter it here. Otherwise, write "unknown," and the script will query the BEA website for all available options. After selecting all options, the code will generate a .csv file and save it to the destination requested.
+
+## Notes:
+This is part of a longer-term project to make large amounts of economic data easily accessible and plottable. More to come.
